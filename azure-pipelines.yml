@@ -61,7 +61,7 @@ stages:
       displayName: 'Deploy Huxley 2 to Azure web app service'
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: 'AzDo'
+        azureSubscription: 'scon-visualstudio'
         appType: 'webAppLinux'
         WebAppName: 'gallowst-huxley2'
         packageForLinux: '$(Build.ArtifactStagingDirectory)/**/Huxley2.zip'
